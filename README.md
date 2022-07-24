@@ -9,6 +9,7 @@
 - [controller](controller.md)
 - [curl](curl.md)
 - [docker-compose](docker-compose.md)
+- [docker](docker.md)
 - [doxygen](doxygen.md)
 - [git](git.md)
 - [gitlab](gitlab.md)
