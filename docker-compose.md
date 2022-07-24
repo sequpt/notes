@@ -1,6 +1,6 @@
 # docker-composse
 
-OpenSSH remote login client
+Run multi-container Docker applications
 
 - Website: <https://docs.docker.com/compose/>
 - Doc: <https://www.openssh.com/manual.html>
