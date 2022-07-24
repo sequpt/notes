@@ -1,0 +1,25 @@
+# ssh
+
+OpenSSH remote login client
+
+- Website: <https://www.openssh.com/>
+- Doc: <https://www.openssh.com/manual.html>
+- Repo: <https://github.com/openssh/openssh-portable>
+
+## Installation
+
+- Debian: `sudo apt-get install openssh-client`
+
+## Usage
+
+```text
+# Create a public/private key pair without hostname@username comment in public key
+# and without passphrase
+ssh-keygen -f ~/.ssh/<filename> -t rsa -b 4096 -C "" -N ""
+
+# Files and directories permission
+~/.ssh/           : 700 (drwx------)
+Public key (*.pub): 644 (-rw-r--r--)
+~/.ssh/config     : 600 (-rw-------)
+Private key       : 600 (-rw-------)
+```
