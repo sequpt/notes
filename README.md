@@ -11,6 +11,7 @@
 - [docker-compose](docker-compose.md)
 - [doxygen](doxygen.md)
 - [git](git.md)
+- [gitlab](gitlab.md)
 - [gpg](gpg.md)
 - [node](node.md)
 - [sed](sed.md)
