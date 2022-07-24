@@ -10,6 +10,7 @@
 - [curl](curl.md)
 - [docker-compose](docker-compose.md)
 - [doxygen](doxygen.md)
+- [git](git.md)
 - [node](node.md)
 - [sed](sed.md)
 - [ssh](ssh.md)
