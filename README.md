@@ -10,3 +10,4 @@
 - [curl](curl.md)
 - [doxygen](doxygen.md)
 - [node](node.md)
+- [sed](sed.md)
