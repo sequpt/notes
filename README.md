@@ -7,3 +7,4 @@
 - [chmod](chmod.md)
 - [cloc](cloc.md)
 - [controller](controller.md)
+- [curl](curl.md)
