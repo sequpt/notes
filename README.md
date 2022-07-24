@@ -5,3 +5,4 @@
 - [bear](bear.md)
 - [c](c.md)
 - [chmod](chmod.md)
+- [cloc](cloc.md)
