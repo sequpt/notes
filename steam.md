@@ -10,12 +10,12 @@ Video game digital distribution service
 
 ### steam
 
-- Debian: `sudo apt-get install steam`
+- Debian: `sudo dpkg --add-architecture i386 && sudo apt-get install steam`
 - Binaries: <https://cdn.akamai.steamstatic.com/client/installer/steam.deb>
 
 ### steamcmd
 
-- Debian: `sudo apt-get install steamcmd`
+- Debian: `sudo dpkg --add-architecture i386 && sudo apt-get install steamcmd`
 - Binaries: <http://media.steampowered.com/installer/steamcmd_linux.tar.gz>
 
 ## Usage
