@@ -28,8 +28,10 @@ git config --local commit.gpgSign true        : Automatically sign commits
 ### Creation
 
 ```text
-git init       : Create local repository in the current directory
-git init <path>: Create local repository in <path>
+git init          : Create local repository in the current directory
+git init <path>   : Create local repository in <path>
+git clone <url>   : Clone repo located at <url>
+git clone <url> -n: Don't checkout HEAD after cloning (--no-checkout)
 ```
 
 ### Branches
@@ -78,4 +80,5 @@ git push -u origin <branch>    : Set `origin` as default remote for <branch> and
 ```text
 git log          : Show commit history
 git log --oneline: One commit per line
+git log --show-signature: Show
 ```
