@@ -16,5 +16,6 @@
 - [gpg](gpg.md)
 - [node](node.md)
 - [sed](sed.md)
+- [sqlite3](sqlite3.md)
 - [ssh](ssh.md)
 - [steam](steam.md)
