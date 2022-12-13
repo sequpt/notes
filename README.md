@@ -11,6 +11,7 @@
 - [docker-compose](docker-compose.md)
 - [docker](docker.md)
 - [doxygen](doxygen.md)
+- [firefox](firefox.md)
 - [git](git.md)
 - [gitlab](gitlab.md)
 - [gpg](gpg.md)
