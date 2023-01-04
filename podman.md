@@ -63,14 +63,14 @@ sudo apt-get install \
 
 ```text
 sudo apt-get install \
-    conman \
+    conmon \
     crun \
     fuse-overlayfs \
     slirp4netns \
     uidmap
 ```
 
-The static builds of `conman` available in the [github
+The static builds of `conmon` available in the [github
 repository](https://github.com/containers/conmon/releases) don't statically link
 to `systemd` (see [this
 comment](https://github.com/containers/conmon/issues/348#issuecomment-1222081803)).\
@@ -78,8 +78,8 @@ Running a container will fail with the following error message: `Error: write
 child: broken pipe` because the default logging driver is `journald`.\
 The possible solutions are:
 
-- Installing the official `conman` package from the `Debian` repository.
-- Building `conman` manually with `libsystemd-dev` installed.
+- Installing the official `conmon` package from the `Debian` repository.
+- Building `conmon` manually with `libsystemd-dev` installed.
 - Add `log_driver = "<not-journald>"`(with `<not-journald>` being either
   `k8s-file`, `none` or `passthrough`) under the `[containers]` table in the
   `containers.conf` file.
