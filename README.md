@@ -8,6 +8,7 @@
 - [cloc](cloc.md)
 - [controller](controller.md)
 - [curl](curl.md)
+- [date](date.md)
 - [docker-compose](docker-compose.md)
 - [docker](docker.md)
 - [doxygen](doxygen.md)
