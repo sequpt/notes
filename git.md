@@ -23,6 +23,7 @@ git config --global core.editor "<editor-cmd>": [gedit -w -s] [geany -imnst] [co
 git config --global core.filemode false       : Don't interpret file permission as changes
 git config --local user.signingKey <KEY>      : Add signing key
 git config --local commit.gpgSign true        : Automatically sign commits
+git config --local tag.gpgSign true           : Automatically sign tags
 ```
 
 ### Creation
