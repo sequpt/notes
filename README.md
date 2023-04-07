@@ -20,6 +20,7 @@
 - [npm](npm.md)
 - [nvm](nvm.md)
 - [podman](podman.md)
+- [rust](rust.md)
 - [sed](sed.md)
 - [sqlite3](sqlite3.md)
 - [ssh](ssh.md)
