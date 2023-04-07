@@ -17,6 +17,12 @@ OpenSSH remote login client
 # and without passphrase
 ssh-keygen -f ~/.ssh/<filename> -t rsa -b 4096 -C "" -N ""
 
+# Send public key to server
+ssh-copy-id -i ~/.ssh/<private_key_file> <user>@<host>
+
+# Add key to agent
+ssh-add ~/.ssh/<private_key_file>
+
 # Files and directories permission
 ~/.ssh/           : 700 (drwx------)
 Public key (*.pub): 644 (-rw-r--r--)
