@@ -16,6 +16,7 @@
 - [git](git.md)
 - [gitlab](gitlab.md)
 - [gpg](gpg.md)
+- [nextjs](nextjs.md)
 - [node](node.md)
 - [npm](npm.md)
 - [nvm](nvm.md)
