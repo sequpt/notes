@@ -17,6 +17,7 @@
 - [gitlab](gitlab.md)
 - [gpg](gpg.md)
 - [node](node.md)
+- [nvm](nvm.md)
 - [podman](podman.md)
 - [sed](sed.md)
 - [sqlite3](sqlite3.md)
