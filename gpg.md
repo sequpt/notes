@@ -26,6 +26,8 @@ gpg --list-signatures
 gpg --list-signatures
 # Export public key
 gpg --output public.pgp --armor --export <PUBLIC_PRIMARY_KEY>
+# Restart gpg-agent
+gpgconf --kill gpg-agent
 ```
 
 ```text
