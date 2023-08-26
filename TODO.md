@@ -12,7 +12,6 @@
 - [ ] cut
 - [ ] dd
 - [ ] df
-- [ ] dpkg
 - [ ] du
 - [ ] find
 - [ ] gcc

@@ -12,6 +12,7 @@
 - [docker-compose](docker-compose.md)
 - [docker](docker.md)
 - [doxygen](doxygen.md)
+- [dpkg](dpkg.md)
 - [exiftool](exiftool.md)
 - [firefox](firefox.md)
 - [git](git.md)
