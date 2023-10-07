@@ -30,6 +30,7 @@ cargo new <path>                              # Create new cargo project at <pat
 cargo init                                    # Create new cargo project in current directory
 cargo init <path>                             # Same as `cargo new <path>`
 cargo add <dependency>                        # Add dependency to Cargo.toml
+cargo add --dev <dependency>                  # Add a development only dependency
 cargo add <dependency@version>                # Add dependency with a version constraint
 cargo add <dependency> --features="<feature>" # Add dependency and activate features
 cargo add <dependency> --no-default-features  # Add dependency without default features
