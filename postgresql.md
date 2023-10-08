@@ -22,3 +22,17 @@ sudo apt-get update
 # If you want a specific version, use 'postgresql-12' or similar instead of 'postgresql'
 sudo apt-get -y install postgresql
 ```
+
+## Usage
+
+### Short form
+
+ ```text
+ pg_dumpall -U admin -c --if-exists > <file>-`date -uIs`.sql #1 Make backup to a `sql` file postfixed with a timestamp in ISO 8601 format
+ ```
+
+### Long form
+
+ ```text
+ pg_dumpall --clean --if-exists -U admin > <file>-`date -uIs`.sql #1
+ ```

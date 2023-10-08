@@ -26,6 +26,7 @@
 - [npm](npm.md)
 - [nvm](nvm.md)
 - [podman](podman.md)
+- [postgresql](postgresql.md)
 - [rust](rust.md)
 - [scp](scp.md)
 - [sed](sed.md)
