@@ -15,7 +15,7 @@ OpenSSH remote login client
 ```text
 # Create a public/private key pair without hostname@username comment in public key
 # and without passphrase
-ssh-keygen -f ~/.ssh/<filename> -t rsa -b 4096 -C "" -N ""
+ssh-keygen -f ~/.ssh/<filename> -t ed25519 -C "" -N ""
 
 # Send public key to server
 ssh-copy-id -i ~/.ssh/<private_key_file> <user>@<host>
