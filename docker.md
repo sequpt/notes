@@ -51,17 +51,22 @@ export DOCKER_HOST="unix://$XDG_RUNTIME_DIR/docker.sock"
 ## Usage
 
 ```text
-docker container stop <container-id>          : Stop container
-docker container rm <container-id>            : Delete container
-docker container prune                        : Remove all stopped containers
-docker images --filter "dangling=true"        : Show untagged images
-docker image prune --filter="dangling=true"   : Delete untagged images
-docker rmi <img-id>                           : Delete image
-docker run --publish 8000:8000 <container-tag>: Run container and expose <host:container> ports
-docker run -d <container-tag>                 : Run in detached mode
-docker exec -it <container-id> bash           : Attach to a running container in interactive mode
-                                              : -it are two parameters: -i(--interactive) and -t(--tty):
-docker run --rm -it <container-tag>           : Run container in in interactive mode and remove it when it exits
+docker container stop <container-id>                       # Stop container
+docker container rm <container-id>                         # Delete container
+docker container prune                                     # Remove all stopped containers
+docker images --filter "dangling=true"                     # Show untagged images
+docker image prune --filter="dangling=true"                # Delete untagged images
+docker image prune --all                                   # Remove all unused images
+docker system prune                                        # Remove everything not used
+docker rmi <img-id>                                        # Delete image
+docker run --publish 8000:8000 <container-tag>             # Run container and expose <host:container> ports
+docker run -d <container-tag>                              # Run in detached mode
+docker exec -it <container-id> bash                        # Attach to a running container in interactive mode
+                                                           # -it are two parameters: -i(--interactive) and -t(--tty):
+docker run --rm -it <container-tag>                        # Run container in in interactive mode and remove it when it exits
+docker run --entrypoint=<path>                             # Run container and override CMD
+docker build --f <dockerfile> --tag <repo/img-name> <path> # Build image and tag it
+docker build --no-cache --f <dockerfile>                   # Force image rebuild from scratch
 ```
 
 ## Scan image
