@@ -10,7 +10,7 @@ Debian package manager
 ## Installation
 
 - Debian: `sudo apt-get install dpkg`
-  - Package is `essenial` and `required`
+  - Package is `essential` and `required`
 
 ## Usage
 
