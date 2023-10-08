@@ -64,6 +64,7 @@ sudo apt-get install \
 ```text
 sudo apt-get install \
     conmon \
+    containernetworking-plugins \
     crun \
     fuse-overlayfs \
     slirp4netns \
@@ -169,4 +170,22 @@ driver = "overlay"
 [storage.options.overlay]
 mount_program = "/usr/bin/fuse-overlayfs"
 EOF
+```
+
+- `podman.socket`
+
+```text
+# Create symlink $HOME/.config/systemd/user/sockets.target.wants/podman.socket → $HOME/.local/lib/systemd/user/podman.socket.
+# Create symlink $HOME/.config/systemd/user/podman.socket → $HOME/.local/lib/systemd/user/podman.socket.
+systemctl --user enable $HOME/.local/lib/systemd/user/podman.service
+
+# Create symlink $HOME/.config/systemd/user/default.target.wants/podman.service → $HOME/.local/lib/systemd/user/podman.service.
+# Create symlink $HOME/.config/systemd/user/podman.service → $HOME/.local/lib/systemd/user/podman.service.
+systemctl --user enable $HOME/.local/lib/systemd/user/podman.socket
+
+# Start podman.socket
+systemctl --user start podman.socket
+
+# Verify that podman.socket is started
+systemctl --user status podman.socket
 ```
