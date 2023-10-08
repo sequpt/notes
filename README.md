@@ -5,6 +5,7 @@
 - [bear](bear.md)
 - [c](c.md)
 - [chmod](chmod.md)
+- [chown](chown.md)
 - [cloc](cloc.md)
 - [controller](controller.md)
 - [curl](curl.md)
