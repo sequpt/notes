@@ -19,6 +19,7 @@
 - [git](git.md)
 - [gitlab](gitlab.md)
 - [gpg](gpg.md)
+- [nano](nano.md)
 - [nextjs](nextjs.md)
 - [node](node.md)
 - [npm](npm.md)
