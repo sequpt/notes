@@ -21,6 +21,7 @@
 - [gpg](gpg.md)
 - [nano](nano.md)
 - [nextjs](nextjs.md)
+- [nginx](nginx.md)
 - [node](node.md)
 - [npm](npm.md)
 - [nvm](nvm.md)
