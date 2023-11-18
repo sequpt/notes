@@ -142,7 +142,7 @@ git filter-branch -f --commit-filter '
 # Set timezone to UTC for every commits
 git filter-branch -f --env-filter '
     export GIT_AUTHOR_DATE=$(echo "$GIT_AUTHOR_DATE" | sed 's/+[0-9]\{4\}/+0000/')
-    export GIT_COMMITTER_DATE=$(echo "$GIT_COMMITTER_DATE" | 's/+[0-9]\{4\}/+0000/')
+    export GIT_COMMITTER_DATE=$(echo "$GIT_COMMITTER_DATE" | sed 's/+[0-9]\{4\}/+0000/')
 '
 
 # Set the commit date to the author date for all commits
