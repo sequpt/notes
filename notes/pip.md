@@ -1,13 +1,13 @@
 # pip
 
-Package installer for Python
+Package installer for Python.
 
-- Website: <https://pip.pypa.io>
-- Code: <https://github.com/pypa/pip>
+- Homepage: <https://pip.pypa.io>
+- Repo: <https://github.com/pypa/pip>
 
 ## Installation
 
-`sudo apt-get install python3 python3-pip`
+- Debian package: `python3 python3-pip`
 
 ## Update
 

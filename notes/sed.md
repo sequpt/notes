@@ -1,14 +1,14 @@
 # sed
 
-Stream editor for filtering and transforming text
+Stream editor for filtering and transforming text.
 
-- Website: <https://www.gnu.org/software/sed/>
+- Homepage: <https://www.gnu.org/software/sed/>
 - Doc: <https://www.gnu.org/software/sed/manual/sed.html>
 - Repo: <https://git.savannah.gnu.org/cgit/sed.git>
 
 ## Installation
 
-- Debian: `sudo apt-get install sed`
+- Debian package: `sed`
 
 ## Usage
 

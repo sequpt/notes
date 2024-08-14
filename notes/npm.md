@@ -1,10 +1,10 @@
 # npm
 
-Node package manager
+Node package manager.
 
-- Website: <https://www.npmjs.com>
-- Doc:     <https://docs.npmjs.com>
-- Source:  <https://github.com/npm/cli>
+- Homepage: <https://www.npmjs.com>
+- Doc: <https://docs.npmjs.com>
+- Repo: <https://github.com/npm/cli>
 
 ## Installation
 

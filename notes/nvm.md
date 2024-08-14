@@ -1,10 +1,10 @@
 # nvm
 
-Node version manager
+Node version manager.
 
-- Website: <https://github.com/nvm-sh/nvm>
-- Doc:     <https://github.com/nvm-sh/nvm>
-- Source:  <https://github.com/nvm-sh/nvm>
+- Homepage: <https://github.com/nvm-sh/nvm>
+- Doc: <https://github.com/nvm-sh/nvm>
+- Repo: <https://github.com/nvm-sh/nvm>
 
 ## Installation
 

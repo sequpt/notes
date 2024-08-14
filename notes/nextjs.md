@@ -1,11 +1,11 @@
 # nextjs
 
-React framework
+React framework.
 
-- Website:  <https://nextjs.org>
-- Doc:      <https://nextjs.org/docs/getting-started>
+- Homepage: <https://nextjs.org>
+- Doc: <https://nextjs.org/docs/getting-started>
 - Tutorial: <https://nextjs.org/learn>
-- Source:   <https://github.com/vercel/next.js>
+- Repo: <https://github.com/vercel/next.js>
 
 ## Installation
 

@@ -2,12 +2,12 @@
 
 Generate `compile_commands.json` for clang.
 
-- Repo: <https://github.com/rizsotto/Bear>
 - Doc: <https://github.com/rizsotto/Bear/wiki>
+- Repo: <https://github.com/rizsotto/Bear>
 
 ## Installation
 
-- Debian: `sudo apt-get install bear`
+- Debian package: `bear`
 
 ## Usage
 

@@ -1,10 +1,14 @@
 # nano
 
-Text editor
+Text editor.
+
+- Homepage: <https://nano-editor.org>
+- Doc: <https://nano-editor.org/docs.php>
+- Repo: <https://git.savannah.gnu.org/cgit/nano.git>
 
 ## Installation
 
-`sudo apt-get install nano`
+- Debian package: `nano`
 
 ## Usage
 

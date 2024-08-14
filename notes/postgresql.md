@@ -2,9 +2,9 @@
 
 Open-source relational database management system(RDBMS).
 
-- Website: <https://www.postgresql.org>
-- Doc:     <https://www.postgresql.org/docs/current/index.html>
-- Source:  <https://www.postgresql.org/ftp/source/>
+- Homepage: <https://www.postgresql.org>
+- Doc: <https://www.postgresql.org/docs/current/index.html>
+- Repo: <https://www.postgresql.org/ftp/source/>
 
 ## Installation
 

@@ -1,10 +1,11 @@
 # git
 
-OpenSSH remote login client
+Distributed revision control system.
 
-- Website: <https://git-scm.com/>
-- Repo: <https://git.kernel.org/pub/scm/git/git.git>
-- Mirror: <https://github.com/git/git>
+- Homepage: <https://git-scm.com/>
+- Repo
+  - <https://git.kernel.org/pub/scm/git/git.git>
+  - <https://github.com/git/git>
 
 ## Table of Contents
 
@@ -24,7 +25,7 @@ OpenSSH remote login client
 
 ## Installation
 
-- Debian: `sudo apt-get install git`
+- Debian package: `gpg`
 
 ## Usage
 

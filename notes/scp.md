@@ -1,14 +1,14 @@
 # scp
 
-OpenSSH secure file copy
+OpenSSH secure file copy.
 
-- Website: <https://www.openssh.com/>
+- Homepage: <https://www.openssh.com/>
 - Doc: <https://www.openssh.com/manual.html>
 - Repo: <https://github.com/openssh/openssh-portable>
 
 ## Installation
 
-- Debian: `sudo apt-get install openssh-client`
+- Debian package: `openssh-client`
 
 ## Usage
 

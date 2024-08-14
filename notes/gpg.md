@@ -1,19 +1,15 @@
 # gpg
 
-GNU Privacy Guard
+GNU Privacy Guard.
 
-- Website: <https://gnupg.org>
-- Doc:     <https://gnupg.org/documentation/index.html>
-- Source:  <https://git.gnupg.org/cgi-bin/gitweb.cgi>
+- Homepage: <https://gnupg.org>
+- Doc: <https://gnupg.org/documentation/index.html>
+- Repo: <https://git.gnupg.org/cgi-bin/gitweb.cgi>
 
 ## Installation
 
-### Debian
-
-`sudo apt-get install gpg`
-
-- GUI
-  - seahorse: `sudo apt-get install seahorse`
+- Debian package: `gpg`
+  - GUI: `seahorse`
 
 ## Usage
 

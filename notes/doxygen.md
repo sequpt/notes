@@ -2,12 +2,12 @@
 
 Generate documentation from source code.
 
-- Website: <https://doxygen.nl/>
+- Homepage: <https://doxygen.nl/>
 - Repo: <https://github.com/doxygen/doxygen>
 
 ## Installation
 
-- Debian: `sudo apt-get install doxygen`
+- Debian package: `doxygen`
 
 ## Usage
 

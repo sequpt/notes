@@ -1,10 +1,10 @@
 # node
 
-JavaScript runtime
+JavaScript runtime.
 
-- Website: <https://nodejs.org/>
-- Doc:     <https://nodejs.org/en/docs>
-- Source:  <https://github.com/nodejs/node>
+- Homepage: <https://nodejs.org/>
+- Doc: <https://nodejs.org/en/docs>
+- Repo: <https://github.com/nodejs/node>
 
 ## Installation
 

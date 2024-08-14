@@ -1,13 +1,13 @@
 # firefox
 
-Web browser
+Web browser.
 
-- Website: <https://www.mozilla.org/en-US/firefox/new/>
+- Homepage: <https://www.mozilla.org/en-US/firefox/new/>
 - Repo: <https://hg.mozilla.org/mozilla-central>
 
 ## Installation command
 
-- Debian: `sudo apt-get install firefox-esr`
+- Debian package: `firefox-esr`
 
 ## Binaries
 
@@ -82,4 +82,12 @@ storage-sync-v2.sqlite-shm  : SQL Wal-Index(doesn't contain any database content
 storage-sync-v2.sqlite-wal  : SQL Write-Ahead Logging(WAL)
 storage.sqlite              : ?(empty on creation)
 weave                       : ?
+```
+
+```text
+https://github.com/jusw85/mozlz4
+Extract
+./mozlz4 search.json.mozlz4 search.json
+Compress
+./mozlz4 -z search.json search.json.mozlz4
 ```

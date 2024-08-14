@@ -1,10 +1,10 @@
 # chmod
 
-Change file permission
+Change file permission.
 
 ## Installation
 
-- Debian: `sudo apt-get install coreutils`
+- Debian package: `coreutils`
 
 ## Permission reading
 

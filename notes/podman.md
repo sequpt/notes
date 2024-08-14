@@ -2,15 +2,15 @@
 
 A tool for managing OCI containers and pods.
 
-- Website      : <https://podman.io/>
-- Documentation: <https://docs.podman.io/en/latest/>
-- Source       : <https://github.com/containers/podman>
+- Homepage: <https://podman.io/>
+- Doc: <https://docs.podman.io/en/latest/>
+- Repo: <https://github.com/containers/podman>
 
 ## Installation
 
 <https://podman.io/getting-started/installation>
 
-- Debian: `sudo apt-get install podman`
+- Debian package: `podman`
 
 Debian version is old, it's better to install from sources.
 

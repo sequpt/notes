@@ -1,10 +1,10 @@
 # rust
 
-Programming language
+Programming language.
 
-- Website: <https://www.rust-lang.org>
-- Doc:     <https://www.rust-lang.org/learn>
-- Source:  <https://github.com/rust-lang>
+- Homepage: <https://www.rust-lang.org>
+- Doc: <https://www.rust-lang.org/learn>
+- Repo: <https://github.com/rust-lang>
 
 ## Installation
 

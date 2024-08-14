@@ -1,10 +1,10 @@
 # date
 
-Print or set the system date and time
+Print or set the system date and time.
 
 ## Installation
 
-- Debian: `sudo apt-get install coreutils`
+- Debian package: `coreutils`
 
 ## Usage
 

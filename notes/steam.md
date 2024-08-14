@@ -1,21 +1,26 @@
 # steam
 
-Video game digital distribution service
+Video game digital distribution service.
 
-- Website: <https://store.steampowered.com/>
-- Proton: [repo](https://github.com/ValveSoftware/Proton)/[doc](https://github.com/ValveSoftware/Proton/wiki)
-- steamcmd: <https://developer.valvesoftware.com/wiki/SteamCMD>
+- Homepage: <https://store.steampowered.com/>
+- proton
+  - Doc: <https://github.com/ValveSoftware/Proton/wiki>
+  - Repo: <https://github.com/ValveSoftware/Proton>
+- steamcmd
+  - Doc: <https://developer.valvesoftware.com/wiki/SteamCMD>
 
 ## Installation
 
 ### steam
 
-- Debian: `sudo dpkg --add-architecture i386 && sudo apt-get install steam`
+- Debian package: `steam`
+  - `dpkg --add-architecture i386 && apt-get install steam`
 - Binaries: <https://cdn.akamai.steamstatic.com/client/installer/steam.deb>
 
 ### steamcmd
 
-- Debian: `sudo dpkg --add-architecture i386 && sudo apt-get install steamcmd`
+- Debian package: `steamcmd`
+  - `dpkg --add-architecture i386 && apt-get install steamcmd`
 - Binaries: <http://media.steampowered.com/installer/steamcmd_linux.tar.gz>
 
 ## Usage

@@ -1,10 +1,10 @@
 # chown
 
-Change file owner and group
+Change file owner and group.
 
 ## Installation
 
-- Debian: `sudo apt-get install coreutils`
+- Debian package: `coreutils`
 
 ## Usage
 

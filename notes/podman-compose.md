@@ -2,13 +2,12 @@
 
 docker-compose alternative
 
-- Website: <https://github.com/containers/podman-compose>
-- Code: <https://github.com/containers/podman-compose>
+- Repo: <https://github.com/containers/podman-compose>
 
 ## Prerequisites
 
-- dnsmasq: `sudo apt-get install dnsmasq`
-- dsname:
+- Debian package: `dnsmasq`
+- `dsname`:
 
   ```text
   git clone https://github.com/containers/dnsname.git/

@@ -1,14 +1,15 @@
-# docker-composse
+# docker-compose
 
-Run multi-container Docker applications
+Run multi-container Docker applications.
 
-- Website: <https://docs.docker.com/compose/>
+- Homepage: <https://docs.docker.com/compose/>
 - Doc: <https://www.openssh.com/manual.html>
 - Repo: <https://github.com/docker/compose>
 
 ## Installation
 
-- Debian: `sudo apt-get install --no-install-recommends docker-compose`
+- Debian package: `docker-compose`
+  - `apt-get install --no-install-recommends docker-compose`
 - Binaries: <https://github.com/docker/compose/releases>
 
 ## Usage

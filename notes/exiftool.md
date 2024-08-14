@@ -1,16 +1,16 @@
 # exiftool
 
-Edit media metadata
+Edit media metadata.
 
-- Website: <https://exiftool.org>
-- Doc:     <https://exiftool.org/exiftool_pod.html>
-- Source:  <https://github.com/exiftool/exiftool>
+- Homepage: <https://exiftool.org>
+- Doc: <https://exiftool.org/exiftool_pod.html>
+- Repo: <https://github.com/exiftool/exiftool>
 
 ## Installation
 
 <https://exiftool.org/install.html>
 
-- Debian: `sudo apt-get install libimage-exiftool-perl`
+- Debian package: `libimage-exiftool-perl`
 
 ## Usage
 

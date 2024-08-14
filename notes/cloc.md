@@ -6,7 +6,7 @@ Count lines of code.
 
 ## Installation
 
-- Debian: `sudo apt-get install cloc`
+- Debian package: `cloc`
 
 ## Usage
 

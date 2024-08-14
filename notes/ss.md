@@ -1,15 +1,15 @@
 # ss
 
-Utility to investigate sockets
+Utility to investigate sockets.
 
-- Website: <https://wiki.linuxfoundation.org/networking/iproute2>
-- Code:
+- Homepage: <https://wiki.linuxfoundation.org/networking/iproute2>
+- Repo
   - <https://git.kernel.org/pub/scm/network/iproute2/iproute2.git>
   - <https://github.com/shemminger/iproute2>
 
 ## Installation
 
-`sudo apt-get install iproute2`
+- Debian package: `iproute2`
 
 ## Usage
 

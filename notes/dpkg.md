@@ -1,16 +1,16 @@
 # dpkg
 
-Debian package manager
+Debian package manager.
 
-- Website:  <https://www.dpkg.org>
-- Doc:      <https://man7.org/linux/man-pages/man1/dpkg.1.html>
-- Source:   <https://git.dpkg.org/git/dpkg/dpkg.git>
-  - Mirror: <https://salsa.debian.org/dpkg-team/dpkg>
+- Homepage: <https://www.dpkg.org>
+- Doc: <https://man7.org/linux/man-pages/man1/dpkg.1.html>
+- Repo
+  - <https://git.dpkg.org/git/dpkg/dpkg.git>
+  - <https://salsa.debian.org/dpkg-team/dpkg>
 
 ## Installation
 
-- Debian: `sudo apt-get install dpkg`
-  - Package is `essential` and `required`
+- Debian package: `dpkg`
 
 ## Usage
 

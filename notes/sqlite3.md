@@ -1,16 +1,16 @@
 # sqlite3
 
-SQL database engine
+SQL database engine.
 
-- Website: <https://www.sqlite.org/>
+- Homepage: <https://www.sqlite.org/>
 - Doc: <https://www.sqlite.org/docs.html>
-- Repo:
+- Repo
   - <https://github.com/sqlite/sqlite>
   - <https://sqlite.org/src>
 
 ## Installation
 
-- Debian: `sudo apt-get install sqlite3`
+- Debian package: `sqlite3`
 
 ## Usage
 

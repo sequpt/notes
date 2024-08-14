@@ -1,8 +1,8 @@
 # docker
 
-Application container
+Application container.
 
-- Website: <https://www.docker.com/>
+- Homepage: <https://www.docker.com/>
 - Doc: <https://docs.docker.com/>
 - Repo: <https://github.com/moby/moby>
 

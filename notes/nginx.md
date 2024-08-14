@@ -1,12 +1,13 @@
 # nginx
 
-Web server/reverse proxy/load balancer
+Web server/reverse proxy/load balancer.
 
-- Website:  <https://nginx.org>
-- Doc:      <https://docs.nginx.com>
-- Source:   <https://hg.nginx.org/nginx>
-  - Mirror: <https://github.com/nginx/nginx>
-- Docker:   <https://registry.hub.docker.com/_/nginx>
+- Homepage: <https://nginx.org>
+- Doc: <https://docs.nginx.com>
+- Repo
+  - <https://hg.nginx.org/nginx>
+  - <https://github.com/nginx/nginx>
+- Docker: <https://registry.hub.docker.com/_/nginx>
 
 ## Installation
 

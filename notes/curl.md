@@ -2,12 +2,13 @@
 
 Send and receive things from the net.
 
-- Website: <https://curl.se/>
+- Homepage: <https://curl.se/>
+- Doc: <https://curl.se/docs/>
 - Repo: <https://github.com/curl/curl>
 
 ## Installation
 
-- Debian: `sudo apt-get install curl`
+- Debian package: `curl`
 
 ## Usage
 
