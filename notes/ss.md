@@ -16,11 +16,11 @@ Utility to investigate sockets.
 ### Short form
 
 ```text
-ss -lnpt #1 Print informations about processes listening on sockets using TCP
+ss -lnpt #1 Print information about processes listening on sockets using TCP
 ```
 
 ### Long form
 
 ```text
-ss --listenting --numeric --process --tcp #1
+ss --listening --numeric --process --tcp #1
 ```
