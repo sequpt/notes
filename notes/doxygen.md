@@ -12,5 +12,5 @@ Generate documentation from source code.
 ## Usage
 
 ```text
-doxygen -g: Generate a Doxyfile
+doxygen -g # Generate a Doxyfile
 ```
