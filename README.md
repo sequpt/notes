@@ -1,4 +1,4 @@
-# Documentation/Cheat Sheet for various things
+# Notes about various tools
 
 ## Table of Contents
 
@@ -10,14 +10,15 @@
 - [controller](controller.md)
 - [curl](curl.md)
 - [date](date.md)
-- [docker-compose](docker-compose.md)
 - [docker](docker.md)
+- [docker-compose](docker-compose.md)
 - [doxygen](doxygen.md)
 - [dpkg](dpkg.md)
 - [exiftool](exiftool.md)
 - [firefox](firefox.md)
 - [git](git.md)
-- [gitlab](gitlab.md)
+- [gitlab registry](gitlab-registry.md)
+- [gitlab runner](gitlab-runner.md)
 - [gpg](gpg.md)
 - [nano](nano.md)
 - [nextjs](nextjs.md)
@@ -25,12 +26,14 @@
 - [node](node.md)
 - [npm](npm.md)
 - [nvm](nvm.md)
-- [podman-compose](podman-compose.md)
+- [pip](pip.md)
 - [podman](podman.md)
+- [podman-compose](podman-compose.md)
 - [postgresql](postgresql.md)
 - [rust](rust.md)
 - [scp](scp.md)
 - [sed](sed.md)
 - [sqlite3](sqlite3.md)
+- [ss](ss.md)
 - [ssh](ssh.md)
 - [steam](steam.md)
