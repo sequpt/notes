@@ -4,39 +4,47 @@
 
 ```text
 # Install runner
-sudo docker pull gitlab/gitlab-runner:alpine
+docker pull gitlab/gitlab-runner:latest
 
 # Create volume for configuration data
-# Set <ID> to a unique id identifying a site/repository running gitlab-runner
-# Volume is stored in `/var/lib/docker/volumes/gitlab-runner-config-<ID>/_data/config.toml`
-sudo docker volume create gitlab-runner-config-<ID>
-
-# Start runner with associated volume
-sudo docker run -d --name gitlab-runner-<ID> -v gitlab-runner-config-<ID>:/etc/gitlab-runner gitlab/gitlab-runner:alpine
+# Path: `$XDG_DATA_HOME/docker/volumes/gitlab-runner-<id>-config/_data/config.toml`
+docker volume create gitlab-runner-<id>-config
 
 # Register runner
-# <URL> = https://gitlab.com for GitLab
-# <URL> and <TOKEN> are found in Settings->CI/CD->Runners
-# <IMG-NAME> is the default image to use if none is provided in `.gitlab-ci.yml`
-sudo docker run --rm -it -v gitlab-runner-config-<ID>:/etc/gitlab-runner gitlab/gitlab-runner:alpine register \
+# <url> = https://gitlab.com for GitLab
+# <url> and <token> are found in Settings->CI/CD->Runners
+docker run --rm \
+  -v gitlab-runner-<id>-config:/etc/gitlab-runner \
+  gitlab/gitlab-runner:latest register \
     --non-interactive \
-    --url "<URL>" \
-    --registration-token "<TOKEN>" \
+    --name "gitlab-runner-<id>" \
+    --limit 6 \
+    --request-concurrency 6 \
+    --url "https://gitlab.com" \
+    --token "<token>" \
     --executor "docker" \
-    --docker-image "<IMG-NAME>" \
+    --env "FF_NETWORK_PER_BUILD=1" \
+    --env "FF_POSIXLY_CORRECT_ESCAPES=1" \
+    --docker-image "alpine:latest" \
     --docker-pull-policy "if-not-present"
 
+# Start runner with associated volume
+docker run -d \
+  --name gitlab-runner-<id> \
+  -v $XDG_RUNTIME_DIR/docker.sock:/var/run/docker.sock \
+  -v gitlab-runner-<id>-config:/etc/gitlab-runner \
+  gitlab/gitlab-runner:latest
+
 # Restart runner after updating `config.toml`
-sudo docker restart gitlab-runner-<ID>
+docker restart gitlab-runner-<id>
 
 # Upgrade runner
-sudo docker stop gitlab-runner-<ID> && sudo docker rm gitlab-runner-<ID>
-sudo docker run -d --name gitlab-runner-<ID> -v gitlab-runner-config-<ID>:/etc/gitlab-runner gitlab/gitlab-runner:alpine
+docker stop gitlab-runner-<id> && docker rm gitlab-runner-<id>
+docker run -d --name gitlab-runner-<id> -v gitlab-runner-<id>-config:/etc/gitlab-runner gitlab/gitlab-runner:latest
 
 # Print runner logs to terminal
-sudo docker logs gitlab-runner-<ID>
+docker logs gitlab-runner-<id>
 
 # Print runner help
-sudo docker run --rm gitlab/gitlab-runner:alpine -h
-
+docker run --rm gitlab/gitlab-runner:latest -h
 ```
