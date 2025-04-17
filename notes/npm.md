@@ -32,4 +32,5 @@ npm uninstall <package> --save    # Same as above
 npm uninstall <package> --no-save # Uninstall local <package> but keep its reference in `package.json`
 npm uninstall <package> --global  # Uninstall global <package>
 npm ci                            # Clean install for automated environment(require `package-lock.json`)
+npm version <major|minor|patch>   # Update the project version in the package* files (run `npm config set git-tag-version false` once before)
 ```
