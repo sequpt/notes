@@ -9,19 +9,22 @@ Distributed revision control system.
 
 ## Table of Contents
 
-- [Installation](#installation)
-- [Usage](#usage)
-  - [Configuration](#configuration)
-  - [Creation](#creation)
-  - [Branches](#branches)
-  - [Staging](#staging)
-  - [Commits](#commits)
-  - [Remote](#remote)
-  - [Log](#log)
-  - [Worktree](#worktree)
-- [Snippets](#snippets)
-- [Misc](#misc)
-  - [Always commit code with date in UTC timezone](#always-commit-code-with-date-in-utc-timezone)
+- [git](#git)
+  - [Table of Contents](#table-of-contents)
+  - [Installation](#installation)
+  - [Usage](#usage)
+    - [Configuration](#configuration)
+    - [Creation](#creation)
+    - [Branches](#branches)
+    - [Staging](#staging)
+    - [Commits](#commits)
+    - [Tags](#tags)
+    - [Remote](#remote)
+    - [Log](#log)
+    - [Worktree](#worktree)
+  - [Snippets](#snippets)
+  - [Misc](#misc)
+    - [Always commit code with date in UTC timezone](#always-commit-code-with-date-in-utc-timezone)
 
 ## Installation
 
@@ -38,7 +41,7 @@ git config --local user.name "<name>"          # Set <name> locally
 git config --local user.email "<email>"        # Set <email> locally
 git config --global core.editor "<editor-cmd>" # [gedit -w -s] [geany -imnst] [codium --wait]
 git config --global core.filemode false        # Don't interpret file permission as changes
-git config --local user.signingKey <KEY>       # Add signing key
+git config --local user.signingKey <key>       # Add signing key
 git config --local commit.gpgSign true         # Automatically sign commits
 git config --local tag.gpgSign true            # Automatically sign tags
 ```
@@ -81,9 +84,15 @@ git commit --amend           # Fix last commit
 git commit --amend --no-edit # Amend commit without changing message
 git reset --soft HEAD^       # Undo last commit and keep modified files
 git reset --hard HEAD^       # Undo last commit and remove modified files
-git tag <tag>                # Tag a commit
-git push --tag               # Push tags to origin
 git show <commit>            # Show commit message and diff
+```
+
+### Tags
+
+```text
+git tag <tag>                  # Tag a commit
+git push --tag                 # Push tags to origin
+git push --delete origin <tag> # Delete remote tag
 ```
 
 ### Remote
@@ -92,6 +101,7 @@ git show <commit>            # Show commit message and diff
 git remote add origin <url>     # Add remote repository located at <url> and named `origin`
 git remote set-url origin <url> # Set new <url> for `origin`
 git push -u origin <branch>     # Set `origin` as default remote for <branch> and push changes (--set-upstream)
+git push --force                # Force the current state to the remote repository
 ```
 
 ### Log
