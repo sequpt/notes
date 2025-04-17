@@ -80,6 +80,12 @@ curl -fsSL \
   -o "$DOCKER_CONFIG/cli-plugins/docker-compose"
 chmod +x "$DOCKER_CONFIG/cli-plugins/docker-compose"
 
+# Install buildx plugin
+mkdir -p "$DOCKER_CONFIG/cli-plugins"
+  "https://github.com/docker/buildx/releases/download/v0.17.1/buildx-v0.17.1.linux-amd64" \
+  -o "$DOCKER_CONFIG/cli-plugins/docker-buildx"
+chmod +x "$DOCKER_CONFIG/cli-plugins/docker-buildx"
+
 # Start daemon on system startup
 sudo loginctl enable-linger $(whoami)
 ```
