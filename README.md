@@ -15,7 +15,6 @@
 - [doxygen](notes/doxygen.md)
 - [dpkg](notes/dpkg.md)
 - [exiftool](notes/exiftool.md)
-- [firefox](notes/firefox.md)
 - [git](notes/git.md)
 - [gitlab registry](notes/gitlab-registry.md)
 - [gitlab runner](notes/gitlab-runner.md)
