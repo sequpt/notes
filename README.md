@@ -21,7 +21,6 @@
 - [gitlab runner](notes/gitlab-runner.md)
 - [gpg](notes/gpg.md)
 - [nano](notes/nano.md)
-- [nextjs](notes/nextjs.md)
 - [nginx](notes/nginx.md)
 - [node](notes/node.md)
 - [npm](notes/npm.md)
